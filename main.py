@@ -12,7 +12,7 @@ MODEL_PATH = os.path.join(os.path.dirname(__file__), "pneumonia_model.h5")
 model = load_model(MODEL_PATH)
 
 # Create API
-app = FastAPI(title="Pneumonia Detection API Updated!!")
+app = FastAPI(title="Pneumonia Detection API !!!Updated!!")
 
 # Preprocessing function
 def preprocess(img):
